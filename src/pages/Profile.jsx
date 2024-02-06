@@ -9,7 +9,7 @@ import profile from './../assets/img/profile.png';
 import Bank from './../assets/img/bank.png';
 import Password from './../assets/img/password.png';
 // import Rebate from './../assets/img/rebate.png';
-import Voucher from './../assets/img/voucher.png';
+// import Voucher from './../assets/img/voucher.png';
 import avatar from './../assets/img/image-avatar-01.png';
 
 const Profile = () => {
@@ -144,7 +144,7 @@ const Profile = () => {
           }
         </div>
       </Tab> */}
-      <Tab eventKey="vocher" className="custom-tab-menu" title={<><img src={Voucher} alt="Vocher" className="custom-tab-menu-icon" /> <div className='text-white'>Vocher</div></>} >
+      {/* <Tab eventKey="vocher" className="custom-tab-menu" title={<><img src={Voucher} alt="Vocher" className="custom-tab-menu-icon" /> <div className='text-white'>Vocher</div></>} >
         <div className="custom-tab-content">
           {
             <Form>
@@ -158,7 +158,7 @@ const Profile = () => {
             </Form>
           }
         </div>
-      </Tab>
+      </Tab> */}
     </Tabs>
     </>
   )
