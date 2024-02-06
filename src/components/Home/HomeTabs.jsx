@@ -37,21 +37,21 @@ import horse1 from '../../assets/img/homeTab/horse1.png'
 function HomeTabs() {
     const tabs=[
         {id:1,img:sport,title:'Sports'},
-        {id:2,img:esport,title:'E-Sports'},
+        // {id:2,img:esport,title:'E-Sports'},
         {id:3,img:casino,title:'Live Casinos'},
         {id:4,img:slots,title:'Slots'},
-        {id:5,img:fish,title:'Fish Hunter '},
-        {id:6,img:cock,title:'Cock Fighting'},
-        {id:7,img:horse,title:'Horse Racing'},
+        {id:5,img:fish,title:'Fish Hunter '}
+        // {id:6,img:cock,title:'Cock Fighting'},
+        // {id:7,img:horse,title:'Horse Racing'},
     ];
     const contentTabs=[
-        {id:1,imgs:[sport1,sport2,sport3,sport4]},
-        {id:2,imgs:[esport1,esport1,esport1]},
+        {id:1,imgs:[sport2]},
+        // {id:2,imgs:[esport1,esport1,esport1]},
         {id:3,imgs:[casino1,casino2,casino3,casino4,casino5,casino6]},
         {id:4,imgs:[slot1,slot2,slot3,slot4,slot5,slot6]},
-        {id:5,imgs:[fish1,fish2,fish3,fish4,fish5]},
-        {id:6,imgs:[cock1,cock1,cock1]},
-        {id:7,imgs:[horse1,horse1,horse1]}
+        {id:5,imgs:[fish1,fish2,fish3,fish4,fish5]}
+        // {id:6,imgs:[cock1,cock1,cock1]},
+        // {id:7,imgs:[horse1,horse1,horse1]}
     ]
   return (
     <Tab.Container  id="left-tabs-example" defaultActiveKey={1}>

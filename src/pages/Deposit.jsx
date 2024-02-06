@@ -109,10 +109,6 @@ const Deposit = () => {
                 <Form.Label>အကိုးအကား နံပတ်</Form.Label>
                 <Form.Control className='form-control-input' type="email" placeholder="" />
               </Form.Group>
-              <Form.Group className="mb-3 mx-md-5" controlId="exampleForm.ControlInput4">
-                <Form.Label>အရောင်းမြင့်တင်ရေး</Form.Label>
-                <Form.Control className='form-control-input' type="email" placeholder="" />
-              </Form.Group>
               <Form.Group className="mb-3 mx-md-5" controlId="formFileSm">
                 <Form.Label>ငွေလက်ခံဖြတ်ပိုင်း</Form.Label>
                 <Form.Control className='form-control-input' type="file" size="sm" />
